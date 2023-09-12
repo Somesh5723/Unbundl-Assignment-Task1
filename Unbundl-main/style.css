@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(204, 232, 176);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    color: black;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-height: 90vh;
+}
+
+.product {
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.product h2{
+    font-size: 25px;
+    color: rgb(152, 36, 88);
+}
+.product em{
+    color: rgb(15, 110, 36);
+}
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.quantity {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.total-price {
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+    font-weight: bold;
+}
